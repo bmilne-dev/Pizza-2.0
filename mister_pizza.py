@@ -1,9 +1,18 @@
+# I started writing this script while writing 
+# a more fully featured interactive restaurant,
+# but figured it would still be fun on its own.
+
 import time
 food = 'pizza'
 
 print("Welcome to Mr. Pizza 2.0!\n")
 
-toppings = ['pepperoni', 'mushroom', 'onion', 'sausage', 'green peppers', 'anchovies', 'hot peppers', 'bacon']
+toppings = [
+    'pepperoni', 'mushroom', 
+    'onion', 'sausage', 
+    'green peppers', 'anchovies', 
+    'hot peppers', 'bacon'
+]
 print("Our toppings are:\n")
 for topping in toppings:
     print(topping.title())
