@@ -38,7 +38,8 @@ if food == 'pizza':
     while topping_3 not in toppings and topping_3 != 'none':
         topping_3 = input("Third topping: ").lower()
     if topping_3 in toppings:
-        pizza_type = topping_1.title() + ' , ' + topping_2.title() + ' , ' + topping_3.title()
+        pizza_type = topping_1.title() + ' , ' + topping_2.title() + \
+        ' , ' + topping_3.title()
     elif topping_3 == 'none' and topping_2 in toppings:
         pizza_type = topping_1.title() + ' and ' + topping_2.title()
 
