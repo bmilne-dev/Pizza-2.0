@@ -38,7 +38,7 @@ else:
     if topping == 'none':
         print(f"So you want a {size} Cheese pizza?")
         a = input("Yes/No: ").lower()
-        while a not in confirm_options:      # this is not working.
+        while a not in confirm_options:      
             print("Sorry, I didn't understand your input")
             a = input("Yes/No: ").lower()
         if a == 'yes':
@@ -47,7 +47,7 @@ else:
         else:
             print("Alright, would you like to start over?")
             a = input("Yes/No: ").lower()
-            while a not in confirm_options:      # this is not working.
+            while a not in confirm_options:      
                 print("Sorry, I didn't understand your input")
                 a = input("Yes/No: ").lower()
             if a == 'yes':
@@ -61,7 +61,7 @@ else:
         for toppings in topping_list:
             print(toppings.title())
         a = input("Yes/No: ").lower()
-        while a not in confirm_options:      # this is not working.
+        while a not in confirm_options:      
             print("Sorry, I didn't understand your input")
             a = input("Yes/No: ").lower()
         if a == 'yes':
